@@ -1,0 +1,53 @@
+body {
+
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    margin: 0;
+  }
+
+  .minha-caixa {
+    width: 400px;
+    height: 300px;
+    background-color: lightskyblue;
+    border: 1px solid #471494;
+    padding: 10px;
+  }
+
+  body {
+
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    margin: 0;
+  }
+
+  .caixa {
+    width: 500px;
+    height: 300px;
+    background-color: lightskyblue;
+    border: 1px solid #471494;
+    padding: 10px;
+  }
+  body {
+    background: linear-gradient(45deg, #0004ff, #520445); /* Degrade inicial */
+    background-size: 400% 400%; /* Tamanho maior para criar espaço para a animação */
+    animation: degradeAnimado 5s infinite; 
+}
+
+@keyframes degradeAnimado {
+    0% {
+        background-position: 0% 50%; /* Posição inicial do degrade */
+    }
+    50% {
+        background-position: 100% 50%; /* Posição final do degrade */
+    }
+    100% {
+        background-position: 0% 50%; /* Retorno à posição inicial */
+    }
+}
+
+h1, p {
+    text-align: center;
+    color: rgb(184, 29, 29); 
+}
